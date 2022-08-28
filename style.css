@@ -1,0 +1,197 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: inherit;
+    background-color: rgb(255, 250, 250);
+}
+.header {
+    background-image: url(images/banner.png);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+.logo img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+ 
+    box-shadow: 1px 1px 3px black;
+
+}
+.opcoes {
+    text-align: left;
+}
+.menuOpcoes ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #724a28;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow:  0 1px 0 black;
+
+}
+a:hover {
+    color: #d1a277;
+    transition: .3s;
+}
+li {
+    display: inline-block;
+    margin-top: 20px;
+}
+li:first-child {
+    margin-left: 100px;
+}
+.slogan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow:  0 1px 0 black;
+}
+.slogan h1 {
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    margin-top: 4em;
+    color: #3d2815;
+    
+}
+.slogan p {
+    font-size: 22px;
+    margin-top: 1em;
+    font-family: 'Inconsolata', monospace;
+    color: #3d2815;
+    font-weight: bold;
+    text-shadow:  0 1px 0 black;
+}
+.search-box {
+    
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+    padding: 10px;
+    height: 40px;
+    background: #000000;
+
+}
+
+input::placeholder {
+    position: relative;
+    top: 32%;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    text-align: center;
+}
+.search-btn {
+    background: none;
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 10px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 15px;
+    transition: 0.5;
+    line-height: 35px;
+    
+    
+}
+
+.produtos_box{
+    position: absolute;
+    top: 65%;
+    
+}
+
+.pao {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    left: 10%
+}
+
+.pao:hover {
+    transition: 0.1s;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.bolo {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    top: 75%;
+    left: 40%
+}
+
+.bolo:hover {
+    transition: 0.1s;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.doce {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    top: 75%;
+    left: 70%
+}
+
+.doce:hover {
+    transition: 0.1s;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.historia {
+    position: absolute;
+    top: 125%;
+    margin-left: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: inherit;
+       
+}
+
+footer {
+    background-image: linear-gradient(to right top, #c05f79, #d0758a, #e08a9c, #f0a0ae, #ffb6c1);
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    top:150%;
+}
+footer p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.cupcake {
+    position: relative;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 1px 1px 3px black;
+    left: 44.5%;
+}
